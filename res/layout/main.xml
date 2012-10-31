@@ -1,0 +1,64 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="@string/hello_world"
+        tools:context=".MainA" />
+
+    <SlidingDrawer
+        android:id="@+id/slidingDrawer1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="51dp"
+        android:content="@+id/content"
+        android:handle="@+id/handle" 
+        >
+        
+        <LinearLayout 
+            android:id="@+id/handle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <Button
+                android:id="@+id/btn"
+	            android:layout_width="wrap_content"
+	            android:layout_height="100dip"
+	            android:text="Handle"
+	            />
+        
+	        <TextView 
+	            android:layout_width="wrap_content"
+	            android:layout_height="30dip"
+	            android:text="11111111111111111"
+	            />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/content"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+        </LinearLayout>
+    </SlidingDrawer>
+
+    
+    <TextView 
+        android:layout_alignParentBottom="true"
+        android:layout_width="fill_parent"
+        android:layout_height="60dip"
+        android:background="#ff0000"
+        android:text="222222222222"
+        android:clickable="true"
+	            />
+</RelativeLayout>
