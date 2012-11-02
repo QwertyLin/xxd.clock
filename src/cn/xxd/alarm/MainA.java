@@ -63,10 +63,4 @@ public class MainA extends Activity {
 		//am.set(AlarmManager.RTC_WAKEUP, time , pi);
 		//finish();
     }
-
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.main, menu);
-        return true;
-    }
 }

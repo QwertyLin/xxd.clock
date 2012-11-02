@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/edit_event_form"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical" >
+
+    <!--
+         <com.tencent.qqcalendar.view.TopBarWidget
+        xmlns:TopBarWidget="http://schemas.android.com/apk/res/com.tencent.qqcalendar"
+        style="@style/style_topbar_widget"
+        TopBarWidget:actionBtnImg="@drawable/btn_confirm"
+        TopBarWidget:title="@string/edit_event_title" />
+    -->
+
+    <include layout="@layout/top_bar_widget" />
+
+    <ScrollView
+        style="@style/baseForm"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scrollbars="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="10.0dip"
+            android:paddingRight="10.0dip"
+            android:paddingTop="20.0dip" >
+            
+            <!-- 周期 -->
+            <FrameLayout 
+                android:id="@+id/edit_cycle"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dip"
+                ></FrameLayout>
+
+           <!-- 时间 -->
+            <FrameLayout 
+                android:id="@+id/edit_time"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dip"
+                ></FrameLayout>
+            
+            <!-- 更多 -->
+            <FrameLayout 
+                android:id="@+id/edit_text"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dip"
+                ></FrameLayout>
+
+            <Button
+                android:id="@id/event_delete_btn"
+                style="@style/delete_btn_text"
+                android:layout_width="fill_parent"
+                android:layout_height="46.0dip"
+                android:layout_marginTop="18.0dip"
+                android:background="@drawable/red_btn"
+                android:paddingLeft="13.0dip"
+                android:paddingRight="13.0dip"
+                android:text="@string/delete_event"
+                android:visibility="gone" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

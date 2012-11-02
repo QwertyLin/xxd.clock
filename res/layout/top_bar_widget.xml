@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="50.0dip"
+    android:background="#ff333333" >
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1.0dip"
+        android:layout_alignParentTop="true"
+        android:background="#ff3d3d3d" />
+
+    <Button
+        android:id="@id/btn_title_bar_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="6.0dip"
+        android:background="@drawable/btn_back"
+        android:contentDescription="@string/edit_event_back" />
+
+    <Button
+        android:id="@id/top_bar_action"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="6.0dip"
+        android:background="@drawable/btn_back"
+        android:contentDescription="@string/edit_event_create"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@id/top_bar_title"
+        style="@style/fontBigTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1.0dip"
+        android:layout_alignParentBottom="true"
+        android:background="#ff232323" />
+
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:topLeftRadius="0.0dip" android:topRightRadius="0.0dip" android:bottomLeftRadius="@dimen/form_circle_radius" android:bottomRightRadius="@dimen/form_circle_radius" />
+    <gradient android:startColor="@color/item_pressed_from" android:endColor="@color/item_pressed_to" android:angle="270.0" android:type="linear" />
+</shape>

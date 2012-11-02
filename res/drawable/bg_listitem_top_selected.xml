@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:topLeftRadius="@dimen/form_circle_radius" android:topRightRadius="@dimen/form_circle_radius" android:bottomLeftRadius="0.0dip" android:bottomRightRadius="0.0dip" />
+    <gradient android:startColor="@color/item_focused_from" android:endColor="@color/item_focused_to" android:angle="270.0" android:type="linear" />
+</shape>

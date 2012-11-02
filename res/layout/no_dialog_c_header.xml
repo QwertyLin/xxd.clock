@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/dialog_width"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dialog_list_title"
+    android:minHeight="@dimen/dialog_title_minheight"
+    android:orientation="vertical"
+    android:paddingBottom="12.0dip"
+    android:paddingTop="3.0dip" 
+    android:visibility="gone"
+    >
+
+    <LinearLayout
+        android:layout_width="@dimen/dialog_width"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="9.0dip"
+        android:paddingTop="@dimen/dialog_title_paddingtop" >
+
+        <!--
+                 <ImageView
+                android:id="@id/ivAlertIcon"
+                android:layout_width="@dimen/dialog_width"
+                android:layout_height="@dimen/dialog_width"
+                android:layout_gravity="top"
+                android:paddingRight="10.0dip"
+                android:src="@android:drawable/ic_dialog_info" />
+        -->
+
+        <TextView
+            android:id="@+id/dialog_c_header_title"
+            style="?android:attr/textAppearanceLarge"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:paddingLeft="6.0dip"
+            android:singleLine="true"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+</LinearLayout>

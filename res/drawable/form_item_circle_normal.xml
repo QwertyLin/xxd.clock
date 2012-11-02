@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/form_item_normal" />
+    <corners android:topLeftRadius="@dimen/form_circle_radius" android:topRightRadius="@dimen/form_circle_radius" android:bottomLeftRadius="@dimen/form_circle_radius" android:bottomRightRadius="@dimen/form_circle_radius" />
+</shape>

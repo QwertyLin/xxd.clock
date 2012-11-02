@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    >
+    <CheckedTextView
+	    android:id="@+id/list_item_checkedtext"
+	    android:layout_width="fill_parent"
+	    android:layout_height="46.0dip"
+	    android:checkMark="@drawable/btn_check_dialog"
+	    android:gravity="center_vertical"
+	    android:paddingLeft="8.0dip"
+	    android:paddingRight="8.0dip"
+	    android:textAppearance="?android:textAppearanceMedium"
+	    android:textColor="@android:color/black" 
+	    android:background="@drawable/form_item"
+	    />
+</FrameLayout>
+
